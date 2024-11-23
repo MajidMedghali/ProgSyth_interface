@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+
+ *{
+  background-color: rgb(240, 237, 231);
+ 
+} 
+
+.main, .ExecutionForm, .Solver, .CHOICES {
+  text-align: center;
+  margin-top: 50px;
+}
+ .logo img{
+  width: 300px;
+  height: 20 px; 
+  margin-right: 20px; 
+ } 
+
+main{
+  width: 500px;
+  margin-top: 1 px;
+
+}
+
+/* Algo{
+  margin-left: 2px;
+} */
+
+  /* header {
+  display: flex;
+  justify-content: flex-start; 
+  align-items: center; 
+  height: 100px; 
+  padding: 10px; 
+  background-color: #b0d2df;
+} */
+
+ .logo img {
+  width: 200px; 
+  height: auto; 
+  margin-right: 10px; 
+}  
+
+/* CSS */
+
+
+/* select, .CST, .EXAMPLES {
+  width: 100px;
+  height: 40px; 
+  margin-bottom: 20px; 
+} */
+
+.menu-container {
+  display: flex; /* Utilisez flexbox pour aligner les enfants horizontalement */
+  align-items: center; /* Centre verticalement les enfants */
+  justify-content: space-around; /* Répartit l'espace autour des enfants */
+  margin-bottom: 20px; /* Espacement en dessous du conteneur */
+}
+
+.menu-container select, 
+.menu-container nav, 
+.menu-container div {
+  margin-right: 10px; /* Espacement entre les enfants */
+}
+
+.menu-container select {
+  width: 20px; /* Largeur du menu déroulant, ajustez selon vos besoins */
+  height: 10px; /* Hauteur du menu déroulant, ajustez selon vos besoins */
+}
+
+/* Il est conseillé de donner une classe spécifique aux liens si nécessaire pour les styler */
+.menu-container nav a,
+.menu-container div a {
+  display: block; /* Pour permettre la hauteur et la largeur d'être appliquées */
+  height: 40px; /* Hauteur pour correspondre aux sélecteurs, ajustez selon vos besoins */
+  line-height: 40px; /* Pour centrer le texte verticalement */
+  padding: 0 15px; /* Espacement interne horizontal */
+  text-decoration: none; /* Enlève le soulignement des liens */
+  background-color: #f2f2f2; /* Couleur de fond, ajustez selon vos besoins */
+  color: #000; /* Couleur du texte, ajustez selon vos besoins */
+  border: 1px solid #ddd; /* Bordure, ajustez selon vos besoins */
+  text-align: center; /* Alignement du texte */
+}
+
+/* Vous pourriez vouloir styler les options désactivées différemment */
+select option[disabled] {
+  display: none;
+}
+
+/* Ajustez le style pour l'option sélectionnée et désactivée si vous voulez la montrer */
+select option[disabled][selected] {
+  display: block;
+  background-color: #eee;
+}
+
+/* Assurez-vous de retirer la hauteur fixe et d'ajouter flex-grow si vous voulez que les éléments remplissent l'espace */
+.menu-container select, 
+.menu-container nav a,
+.menu-container div a {
+  flex-grow: 1;
+  height: auto;
+}
+

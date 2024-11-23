@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+
+header {
+  background-color: rgb(157, 147, 147) !important;
+  font-style: italic;
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 200px;
+}
+
+.logo_image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* width: 30%; */
+}
+
+.logo_image img {
+  width: 230px;
+  height: auto;
+  margin-right: 20px;
+}
+
+
+
+.main {
+  margin-top: 100px;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  /* background: url('fond.jpg') no-repeat; */
+  background-color: rgb(196, 198, 196) !important;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+
+}
+
+
+
+.main-text {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  color: rgb(1, 1, 2);
+  font-size: 24px;
+  margin-top: 100px;
+  background-color: inherit;
+}
+
+
+.App {
+  text-align: center;
+}
+
+.navigation a {
+  margin-left: 100px;
+  color: #54585e;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 510;
+  padding-left: 30px;
+
+
+}
+
+.navigation a:hover {
+  color: rgb(212, 17, 56);
+}
+
+.main-btn {
+  color: white;
+  background-color: rgb(85, 90, 87);
+  text-decoration: none;
+  font-size: 0.5em;
+  font-weight: 600;
+  display: inline-block;
+  padding: 0.9375em 2.1875em;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  transition: 0.9 ease;
+  margin-top: 50px;
+  /* background: h; */
+}
+
+.main-btn:hover {
+  background-color: #153ea6;
+  transform: scale(1.1);
+}
+
+#TIMEOUT,
+#ALGO,
+#SOLVER {
+  font-style: italic;
+  color: #f0f0f0;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgb(88, 97, 99);
+  width: 150px;
+  margin-left: 30px;
+}
+
+option {
+  padding: 10px;
+  font-size: 16px;
+}
+
+option:hover {
+  background-color: #f0f0f0;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+select {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+  font-style: italic;
+}
+
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-style: italic;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+label {
+  display: block;
+  color: #757980;
+  display: flex;
+  padding-left: 10px;
+  font-weight: bolder;
+  font-size: 20px;
+  font-style: italic;
+  width: 14em;
+  height: 30px;
+  box-shadow: 0 5px 25px rgba(1, 1, 1, 100%);
+  margin: auto;
+}
+
+input[type="number"] {
+  font-style: italic;
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 12em;
+  align-items: center;
+}
+
+.Solver,
+.ExecutionForm {
+  margin-top: 5px;
+}
+
+input[id^="userInput"] {
+  width: 150px;
+  height: 40px;
+}
+
+label[for^="userInput"] {
+  margin-left: 10px;
+}
